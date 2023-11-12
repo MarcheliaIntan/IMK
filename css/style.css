@@ -161,3 +161,6 @@ video {
   height: auto;
   border-radius: 10px;
 }
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
