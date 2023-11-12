@@ -1,8 +1,146 @@
-.banner {
-    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg")
-      no-repeat center center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    color: #fff;
+/* INI untuk HOME */
+body {
+  overflow-x: hidden;
+  margin:0;
+  padding:0;
+  /* padding-top: 56px;*/
+}
+.navbarcont{
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  width: 1200px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  z-index: 1000;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(20px);
+}
+.carousel {
+  margin-top: 56px;
+}
+.icon-opacity{
+  opacity: 0.9;
+  width: 20px;
+  height: 20px;
+}
+.nav-icon, .nav-icon0{
+  padding-left: 10px;
+}
+.nav-icon3{
+  padding-left: 12px;
+}
+.navbar-brand{
+  z-index: 2;
+  opacity:0.9;
+}
+.navbar-brand:hover{
+  opacity:1;
+}
+.nav-link{
+  z-index: 2;
+  font-size: 11px;
+  opacity: 0.8;
+  color:white;
+  font-weight: 400;
+}
+.nav-link:hover, .nav-item:hover{
+  opacity: 1 !important;
+  color:white !important;
+}
+.gambar-carousel{
+  height:550px;
+}
+#carouselExample {
+  width: 100%;
+  height: 650px;
+  margin: auto;
+  margin-top: 44px;
+}
+.asusimg{
+  margin-top: 50px !important;
+  width:300px;
+}
+.asuscont{
+  margin:0;
+  padding:0;
+}
+.asusbanner{
+  margin: auto;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+.asusslogan{
+  opacity: 0.6;
+  font-weight: 600;
+  margin-top: -50px !important;
+}
+#cardGrid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100vw;
+}
+.card{
+  background-color: pink;
+  margin-top: 20px;
+  height: 37vw;
+}
+.stuff{
+  padding: 20px
+}
+.nav-item {
+  position: relative;
+  z-index: 2;
+}
+.full-width-dropdown {
+  padding-top: 42px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background-color: #00000094;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  z-index: 1; 
+}
+
+.nav-item:hover .full-width-dropdown,
+.full-width-dropdown:hover {
+  display: block;
+}
+
+.full-width-dropdown.animating {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ensure the submenu takes full width */
+.full-width-dropdown a {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: #000; /* Set your desired text color */
+  text-decoration: none;
+}
+.dropdown-item{
+  color:white !important;
+}
