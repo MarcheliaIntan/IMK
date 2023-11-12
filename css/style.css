@@ -1,11 +1,11 @@
 /* INI untuk HOME */
 body {
   overflow-x: hidden;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   /* padding-top: 56px;*/
 }
-.navbarcont{
+.navbarcont {
   /* background-color: rgba(255, 0, 0, 0.5); */
   width: 1200px;
 }
@@ -22,37 +22,39 @@ body {
 .carousel {
   margin-top: 56px;
 }
-.icon-opacity{
+.icon-opacity {
   opacity: 0.9;
   width: 20px;
   height: 20px;
 }
-.nav-icon, .nav-icon0{
+.nav-icon,
+.nav-icon0 {
   padding-left: 10px;
 }
-.nav-icon3{
+.nav-icon3 {
   padding-left: 12px;
 }
-.navbar-brand{
+.navbar-brand {
   z-index: 2;
-  opacity:0.9;
+  opacity: 0.9;
 }
-.navbar-brand:hover{
-  opacity:1;
+.navbar-brand:hover {
+  opacity: 1;
 }
-.nav-link{
+.nav-link {
   z-index: 2;
   font-size: 11px;
   opacity: 0.8;
-  color:white;
+  color: white;
   font-weight: 400;
 }
-.nav-link:hover, .nav-item:hover{
+.nav-link:hover,
+.nav-item:hover {
   opacity: 1 !important;
-  color:white !important;
+  color: white !important;
 }
-.gambar-carousel{
-  height:550px;
+.gambar-carousel {
+  height: 550px;
 }
 #carouselExample {
   width: 100%;
@@ -60,20 +62,20 @@ body {
   margin: auto;
   margin-top: 44px;
 }
-.asusimg{
+.asusimg {
   margin-top: 50px !important;
-  width:300px;
+  width: 300px;
 }
-.asuscont{
-  margin:0;
-  padding:0;
+.asuscont {
+  margin: 0;
+  padding: 0;
 }
-.asusbanner{
+.asusbanner {
   margin: auto;
   width: 100% !important;
   overflow-x: hidden;
 }
-.asusslogan{
+.asusslogan {
   opacity: 0.6;
   font-weight: 600;
   margin-top: -50px !important;
@@ -86,13 +88,13 @@ body {
   gap: 1rem;
   width: 100vw;
 }
-.card{
+.card {
   background-color: pink;
   margin-top: 20px;
   height: 37vw;
 }
-.stuff{
-  padding: 20px
+.stuff {
+  padding: 20px;
 }
 .nav-item {
   position: relative;
@@ -110,7 +112,7 @@ body {
   background-color: #00000094;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(20px);
-  z-index: 1; 
+  z-index: 1;
 }
 
 .nav-item:hover .full-width-dropdown,
@@ -141,6 +143,21 @@ body {
   color: #000; /* Set your desired text color */
   text-decoration: none;
 }
-.dropdown-item{
-  color:white !important;
+.dropdown-item {
+  color: white !important;
+}
+/* video */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
