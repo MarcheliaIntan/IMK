@@ -20,14 +20,18 @@ $(document).ready(function () {
 
   $('.nav-item').hover(
     function () {
-      $(this).find('.full-width-dropdown').addClass('animating').slideDown(300);
+      var submenu = $(this).find('.full-width-dropdown');
+      clearTimeout(closeTimeout);
+      submenu.removeClass('slide-up').addClass('animating slide-down');
     },
     function () {
       var submenu = $(this).find('.full-width-dropdown');
-      submenu.removeClass('animating');
-      setTimeout(function () {
-        submenu.slideUp(300);
-      }, 300);
+      submenu.removeClass('slide-down').addClass('animating slide-up');
+      if (!submenu.is(':animated')) {
+        closeTimeout = setTimeout(function () {
+          submenu.removeClass('animating');
+        }, 300);
+      }
     }
   );
 
