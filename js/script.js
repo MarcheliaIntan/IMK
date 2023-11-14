@@ -8,6 +8,7 @@ $(document).ready(function () {
   });
 
   var originalNavbarColor = $('.navbar').css('background-color');
+  var closeTimeout; // Declare closeTimeout globally
 
   $('.XD1, .XD2, .XD3, .XD4, .XD5, .XD6, .full-width-dropdown').hover(
     function () {
@@ -22,14 +23,17 @@ $(document).ready(function () {
     function () {
       var submenu = $(this).find('.full-width-dropdown');
       clearTimeout(closeTimeout);
-      submenu.removeClass('slide-up').addClass('animating slide-down');
+
+      if (!submenu.hasClass('slidedown')) {
+        submenu.removeClass('animating slide-up').addClass('animating slide-down');
+      }
     },
     function () {
       var submenu = $(this).find('.full-width-dropdown');
-      submenu.removeClass('slide-down').addClass('animating slide-up');
-      if (!submenu.is(':animated')) {
+      
+      if (submenu.hasClass('slide-down')) {
         closeTimeout = setTimeout(function () {
-          submenu.removeClass('animating');
+          submenu.removeClass('animating slide-down').addClass('slide-up');
         }, 300);
       }
     }
