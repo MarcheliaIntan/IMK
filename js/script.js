@@ -24,7 +24,7 @@ $(document).ready(function () {
       var submenu = $(this).find('.full-width-dropdown');
       clearTimeout(closeTimeout);
 
-      if (!submenu.hasClass('slidedown')) {
+      if (!submenu.hasClass('slide-down')) {
         submenu.removeClass('animating slide-up').addClass('animating slide-down');
       }
     },
