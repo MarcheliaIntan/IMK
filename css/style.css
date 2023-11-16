@@ -6,52 +6,42 @@ body {
   background-color: #F9F9F9;
   /* padding-top: 56px;*/
 }
-
 .navbarcont {
   /* background-color: rgba(255, 0, 0, 0.5); */
   width: 1200px;
 }
-
 .navbar-nav {
   display: flex;
   align-items: center;
 }
-
 .navbar {
   z-index: 1000;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(45px);
 }
-
 .carousel {
   margin-top: 56px;
 }
-
 .icon-opacity {
   opacity: 0.9;
   width: 20px;
   height: 20px;
 }
-
 .nav-icon,
 .nav-icon0 {
   padding-left: 10px;
 }
-
 .nav-icon3 {
   padding-left: 12px;
 }
-
 .navbar-brand {
   z-index: 2;
   opacity: 0.9;
 }
-
 .navbar-brand:hover {
   opacity: 1;
 }
-
 .nav-link {
   z-index: 2;
   font-size: 11px;
@@ -59,18 +49,15 @@ body {
   color: white;
   font-weight: 400;
 }
-
 .nav-link:hover,
 .nav-item:hover {
   opacity: 1 !important;
   color: white !important;
 }
-
 .gambar-carousel {
   object-fit: cover;
   height: 550px;
 }
-
 #carouselExample {
   z-index: 1;
   width: 100%;
@@ -83,20 +70,17 @@ body {
   margin-top: 50px !important;
   width: 300px;
 }
-
 .asuscont {
   z-index: 0;
   margin-top: 20px;
   padding: 0;
 }
-
 .asusbanner {
   margin: auto;
   margin-top: 50px;
   width: 100% !important;
   overflow-x: hidden;
 }
-
 .asusslogan {
   opacity: 0.6;
   font-weight: 400;
@@ -114,12 +98,10 @@ body {
 .stuff {
   padding: 20px;
 }
-
 .nav-item {
   position: relative;
   z-index: 2;
 }
-
 .full-width-dropdown {
   padding-top: 70px;
   padding-bottom: 50px;
@@ -134,17 +116,14 @@ body {
   justify-content: center;
   align-self: center;
 }
-
 .nav-item:hover .full-width-dropdown,
 .full-width-dropdown:hover {
   display: block;
 }
-
 .full-width-dropdown.animating {
   animation-delay: 200ms;
   animation: slideDown 0.9s ease-in-out;
 }
-
 .lowest {
   margin-top: 20px !important;
 }
@@ -176,25 +155,21 @@ body {
 .cola {
   margin-left: -150px !important;
 }
-
 .col-wrapper {
   width: 750px;
   /* background-color: rgb(0, 38, 255); */
   display: flex;
   margin: auto;
 }
-
 .smaller-text {
   font-size: 12px !important;
   opacity: 0.5 !important;
   margin-bottom: 8px;
 }
-
 .smaller-text2 {
   font-size: 12px !important;
   margin-bottom: 4px;
 }
-
 .full-width-dropdown a {
   font-weight: 400;
   margin-left: -46px;
@@ -207,20 +182,16 @@ body {
   color: #000;
   text-decoration: none;
 }
-
 .full-width-dropdown .col a {
   text-align: left;
 }
-
 .dropdown-item {
   color: white !important;
   opacity: 0.9;
 }
-
 .hover1:hover {
   opacity: 1;
 }
-
 .XD1,
 .XD2,
 .XD3,
@@ -248,36 +219,30 @@ body {
   color: #fff;
   padding: 30px 0;
 }
-
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
 .footer-logo img {
   max-width: 150px;
 }
-
 .footer-links ul,
 .footer-social ul {
   list-style: none;
   padding: 0;
 }
-
 .footer-links a,
 .footer-social a {
   text-decoration: none;
   color: #fff;
 }
-
 .footer-links h4,
 .footer-social h4 {
   color: #ffffff6e;
   font-size: 20px;
 }
-
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
@@ -291,7 +256,6 @@ body {
   margin-top: 20px;
   height: 700px;
 }
-
 .card-body{
   padding-top: 50px;
   width: 100%;
@@ -370,7 +334,6 @@ body {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-
 .search-button {
   font-size: 16px;
   padding: 10px 20px;
@@ -380,9 +343,28 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-
 .search-button:hover {
   background-color: #0056b3;
+}
+
+/* INI untuk HP */
+.whitebg{
+  background-color: white !important;
+}
+.maincont{
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainisi{
+  width: 100%;
+  background-color: pink;
+  width: 1200px;
+}
+.phone-banner{
+  width: 2200px;
 }
 
 /* INI untuk LAPTOP */
