@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 /* INI untuk HOME */
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Noto Sans', sans-serif;
   overflow-x: hidden;
@@ -355,6 +358,7 @@ body {
   background-color: white !important;
 }
 .maincont{
+  margin-top: -25px;
   width: 100%;
   /* background-color: red; */
   display: flex;
@@ -363,7 +367,7 @@ body {
 }
 .mainisi{
   width: 100%;
-  /* background-color: pink; */
+  /* background-color: pink;*/
   width: 1200px;
   display: flex;
   flex-direction: column;
@@ -458,13 +462,13 @@ body {
 .summary-text{
   margin-top: 40px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 600;
   height: 100px;
   position: absolute;
   z-index: 2;
   width: 1150px;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
 }
 .gambar-carousel2 {
   margin-left: 50px;
@@ -482,26 +486,30 @@ body {
   margin-top: 75px;
 }
 .price-section{
-  margin-top: 65px;
-  margin-bottom: 20px;
+  margin-top: -10px;
+  margin-bottom: 50px;
   width: 100%;
   /* background-color: pink; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.available{
+  opacity: 0.5;
+  font-size: 20px;
+}
 .zenfone{
   width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
-.zenfone-desc{
+.section-title{
   color: #9eb37e;
   letter-spacing: 3px;
   font-weight: 600;
   text-align: center;
   font-size: 45px;
 }
-.zenfone-desc2{
+.section-title2{
   color: #7f9262;
   letter-spacing: 3px;
   font-weight: 600;
@@ -528,9 +536,137 @@ body {
   object-fit: cover;
 }
 .phone-video{
-  margin-top: 50px;
+  margin-top: 150px;
   border-radius: 0 !important;
   width: 100% !important;
+  height: auto !important;
+}
+.compact{
+  margin-top: 50px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: green; */
+}
+.section-title-grey{
+  width: 700px;
+  color: #000000d2;
+  line-height: 40px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.section-title2-grey{
+  width: 600px;
+  line-height: 35px;
+  color: #00000062;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 22px;
+}
+.compact-specs{            
+  margin-top: 45px;
+  /* background-color: pink; */
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.compact-section{
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compact-spec{
+  opacity: 0.8;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: -3px;
+}
+.compact-name{
+  font-size: 14px;
+  opacity: 0.7;
+}
+.compact-photo{
+  width: 100%;
+}
+.easy-access{
+  margin-top: 90px;
+  border-radius: 0 !important;
+  width: 105% !important;
+}
+.refreshing{
+  margin-left: 80px;
+  margin-top: 150px;
+  width: 1100px;
+  /* background-color: red; */
+}
+.refreshing-phone-design{
+  width: 500px;
+}
+.refreshing-specs{
+  padding-top: 65px;
+  /* background-color: green; */
+}
+.align-center{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start
+}
+.refreshing-title{
+  color: rgba(0, 0, 0, 0.774);
+  margin-top: -23px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: left;
+  font-size: 52px;
+}
+.refreshing-title2{
+  width: 400px;
+  color: rgba(0, 0, 0, 0.404);
+  font-weight: 400;
+  text-align:justify;
+  font-size: 15px;
+  margin-top: -15px;
+}
+.camera{
+  margin-top: 50px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: green; */
+}
+.camera-index{
+  z-index: 2;
+}
+.camera-image{
+  margin-top: -90px;
+  z-index: 1;
+  width: 100%;
+}
+.camera-width{
+  /* background-color: pink; */
+  width: 200px;
+}
+.decrease-camera-margin{
+  margin-top: -50px;
+}
+.camera .camera-index{
+  margin-top: 10px;
+}
+.phone-video2{
+  margin-top: 150px;
+  border-radius: 0 !important;
+  width: 100vw !important;
   height: auto !important;
 }
 
