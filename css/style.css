@@ -268,6 +268,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 0.3s ease-in-out;
+
+}
+.card-body:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
 }
 .card-photo{
   width: 600px;
@@ -474,10 +480,10 @@ body {
   margin-left: 50px;
   width: 600px !important;
 }
-.item{
+/* .item{
   z-index: 3;
-}
-#carouselExample {
+} */
+#carouselExample2 {
   /* background-color: pink; */
   z-index: 1;
   width: 700px;
@@ -577,6 +583,14 @@ body {
   flex-direction: row;
   align-items: center;
 }
+.compact-specs2{            
+  margin-left: 115px;
+  /* background-color: pink; */
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .compact-section{
   margin: auto;
   /* background-color: red; */
@@ -657,6 +671,12 @@ body {
   /* background-color: pink; */
   width: 200px;
 }
+.camera-width2{
+  width: 400px;
+}
+.camera-width3{
+  width: 150px;
+}
 .decrease-camera-margin{
   margin-top: -50px;
 }
@@ -664,10 +684,39 @@ body {
   margin-top: 10px;
 }
 .phone-video2{
-  margin-top: 150px;
+  margin-top: 50px;
   border-radius: 0 !important;
   width: 100vw !important;
   height: auto !important;
+}
+.phone-performace{
+  margin-top: 90px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grey-text{
+  font-weight: 400;
+  color:#000000cc;
+}
+.smaller-spec{
+  font-size: 25px;
+}
+.disclaimer-cont{
+  margin-top: 50px;
+  margin-bottom: -100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.disclaimer{
+  /* background-color: pink; */
+  margin-left: 100px;
+  width: 1200px;
+  font-size: 10px;
 }
 
 /* INI untuk LAPTOP */
