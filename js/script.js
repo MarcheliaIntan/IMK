@@ -33,7 +33,7 @@ $(document).ready(function () {
       
       if (submenu.hasClass('slide-down')) {
         closeTimeout = setTimeout(function () {
-          submenu.removeClass('animating slide-down').addClass('slide-up');
+          submenu.removeClass('animating slide-down').addClass('animatingslide-up');
         }, 300);
       }
     }

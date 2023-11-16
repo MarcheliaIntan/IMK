@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 /* INI untuk HOME */
 body {
+  font-family: 'Noto Sans', sans-serif;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -19,9 +21,6 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(45px);
-}
-.carousel {
-  margin-top: 56px;
 }
 .icon-opacity {
   opacity: 0.9;
@@ -53,6 +52,9 @@ body {
 .nav-item:hover {
   opacity: 1 !important;
   color: white !important;
+}
+.carousel {
+  margin-top: 56px;
 }
 .gambar-carousel {
   object-fit: cover;
@@ -115,6 +117,7 @@ body {
   align-content: center;
   justify-content: center;
   align-self: center;
+  animation: slideUp 0.9s ease-in-out;
 }
 .nav-item:hover .full-width-dropdown,
 .full-width-dropdown:hover {
@@ -353,18 +356,117 @@ body {
 }
 .maincont{
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .mainisi{
   width: 100%;
-  background-color: pink;
+  /* background-color: pink; */
   width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .phone-banner{
   width: 2200px;
+}
+.custom-column {
+  height: 355px;
+  background-color: #00000007;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+.custom-column:hover{
+  background-color: #00000000;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.section-title{
+  align-self: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+.award-img{
+  height: 200px;
+}
+.award-desc{
+  color: rgba(0, 0, 0, 0.774);
+  font-size: 14px;
+  margin-top: 25px;
+  width: 250px;
+  text-align: center;
+}
+.mainisi2{
+  padding:0;
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.isisection{
+  margin: 0;
+  padding: 0;
+  /* background-color: pink; */
+  width: 100%;
+}
+.summary-bg-cont{ 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.summary-bg{ 
+  margin: -5px;
+  padding: 0;
+  opacity: 0.6;
+  width: 110%;
+  height: 150px;
+  object-fit: cover;
+  filter: blur(4px);
+  transition: 0.3s ease-in-out;
+}
+.summary-bg-cont:hover .summary-bg{
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.01);
+}
+.summary-bg-cont:hover .summary-bg{
+  color: rgba(255, 255, 255, 1);
+}
+.summary-text{
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 36px;
+  font-weight: 600;
+  height: 100px;
+  position: absolute;
+  z-index: 2;
+  width: 1150px;
+  letter-spacing: 2px;
+}
+.gambar-carousel2 {
+  margin-left: 50px;
+  width: 600px !important;
+}
+#carouselExample {
+  /* background-color: pink; */
+  z-index: 1;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  margin-top: 75px;
 }
 
 /* INI untuk LAPTOP */
@@ -376,7 +478,7 @@ body {
   margin: 50px auto;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 video {
