@@ -368,6 +368,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.asus-desc{
+  margin-top: -20px;
+  opacity:0.8;
+  font-weight: 600;
+  font-size: 17px;
+  width: 830px;
+  text-align: center;
 }
 .phone-banner{
   width: 2200px;
@@ -460,13 +470,68 @@ body {
   margin-left: 50px;
   width: 600px !important;
 }
+.item{
+  z-index: 3;
+}
 #carouselExample {
   /* background-color: pink; */
   z-index: 1;
   width: 700px;
-  height: 600px;
+  height: 650px;
   margin: auto;
   margin-top: 75px;
+}
+.price-section{
+  margin-top: 65px;
+  margin-bottom: 20px;
+  width: 100%;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zenfone{
+  width: 300px;
+  margin-bottom: 20px;
+}
+.zenfone-desc{
+  color: #9eb37e;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 45px;
+}
+.zenfone-desc2{
+  color: #7f9262;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+}
+.custom-column2 {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+.custom-column2:hover{
+  transition: 0.3s ease-in-out;
+  transform: scale(1.02);
+  border: 1px solid #cccccc00;
+}
+.store-img{
+  width: 340px;
+  object-fit: cover;
+}
+.phone-video{
+  margin-top: 50px;
+  border-radius: 0 !important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 /* INI untuk LAPTOP */
