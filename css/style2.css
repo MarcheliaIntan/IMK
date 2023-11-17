@@ -392,7 +392,7 @@ body {
   text-align: center;
 }
 .phone-banner {
-  width: 2200px;
+  width: 2200px !important;
 }
 .custom-column {
   height: 355px;
@@ -746,7 +746,7 @@ body {
   color: #000000e1;
   line-height: 40px;
   letter-spacing: 3px;
-  font-weight: 600;
+  font-weight: 900;
   text-align: center;
   font-size: 50px;
   margin-top: 80px;
@@ -845,16 +845,22 @@ body {
   height: 1050px;
 }
 .keyboard-privacy {
-  margin-top: -21px;
+  margin-top: -70px;
   background-color: #000000;
-  width: 100%;
+  width: 100vw !important;
   height: 700px;
 }
-.privacy-photo {
+.imgcont{
+  margin-left: 29vw;
+  /* background-color: green; */
   width: 100vw;
-  position: absolute;
-  margin-top: 50px;
-  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+.privacy-photo {
+  margin-top: -850px;
+  width: 100%;
 }
 .section-title-white2 {
   width: 1000px;
@@ -896,6 +902,71 @@ body {
   letter-spacing: 2px;
   opacity: 0.8;
 }
+.gpu-banner {
+  margin-top: 200px;
+  width: 1200px;
+}
+.gpu-title {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 59px;
+  font-style: oblique;
+  margin-bottom: 40px;
+}
+.white{
+  color: white !important;
+}
+.grey{
+  color: rgba(255, 255, 255, 0.808) !important;
+}
+.maincont-gpu {
+  margin-top: -25px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gpu-die-title {
+  color: #ffffffd5;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1 0px;
+}
+.gpu-die-sub {
+  color: #ffffffbd;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 160px;
+}
+.gpu-die-info{
+  margin-top: -120px;
+}
+.refreshing-title-die {
+  color: rgba(0, 0, 0, 0.774);
+  margin-top: -23px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: left;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.refreshing-title2-die {
+  width: 400px;
+  color: rgba(0, 0, 0, 0.404);
+  font-weight: 400;
+  text-align: justify;
+  font-size: 17px;
+  margin-top: -15px;
+  margin-bottom: 60px;
+}
+
 
 /* INI untuk LAPTOP */
 /* video */
