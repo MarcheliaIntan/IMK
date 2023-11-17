@@ -969,7 +969,7 @@ body {
 .gpu-specs {
   color: white;
   margin-top: 45px;
-  background-color: pink;
+  /* background-color: pink; */
   width: 900px;
   display: flex;
   flex-direction: row;
@@ -986,7 +986,7 @@ body {
 .gpu-section {
   width: 200px;
   margin: auto;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -998,8 +998,12 @@ body {
   margin-bottom: -3px;
 }
 .gpu-name {
+  text-align: center;
   font-size: 14px;
   opacity: 0.7;
+}
+.nvidia-icon{
+  width: 90px;
 }
 
 
