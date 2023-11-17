@@ -5,142 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <style>
       body {
-        font-family: "Arial", sans-serif;
+        padding: 20px;
       }
-      .banner {
-        background-image: url("banner-image.jpg"); /* Ganti dengan URL gambar banner Anda */
-        background-size: cover;
-        color: white;
-        text-align: center;
-        padding: 150px 0;
+
+      .container {
+        margin-top: 50px;
       }
-      .products {
-        padding: 50px 0;
-      }
-      .product {
-        text-align: center;
-        margin-bottom: 30px;
-      }
-      .product img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transition: transform 0.3s ease-in-out;
-      }
-      .product img:hover {
-        transform: scale(1.1);
-      }
-      .video-banner {
-        text-align: center;
-        padding: 150px 0;
-      }
-      iframe {
+
+      video,
+      .image {
         width: 100%;
-        height: 400px;
+        height: auto;
       }
     </style>
-    <title>Zenfone 10 - Small is the new big!</title>
+    <title>Video and Photo Page</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Zenfone 10</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#products">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#video">Video</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Banner Section -->
-    <section class="banner">
-      <div class="container">
-        <h1>Zenfone 10 - Small is the new big!</h1>
-        <p class="lead">
-          The fun-loving Zenfone 10 packs mighty performance and plenty of
-          pizzazz into the perfect hand-sized package. It's everything you need
-          for mobile freedom: a speedy Snapdragon® 8 Gen 2 processor, a camera
-          with the coolest new features, and on-trend colors to show your style.
-          Zenfone 10 — it's mighty on hand!
-        </p>
-      </div>
-    </section>
-
-    <!-- Products Section -->
-    <section id="products" class="products">
-      <div class="container">
-        <h2 class="text-center mb-5">Featured Products</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="product">
-              <img src="product1.jpg" alt="Zenfone 10" />
-              <!-- Ganti dengan URL gambar produk Anda -->
-              <h4 class="mt-3">Zenfone 10</h4>
-              <p class="text-muted">Small, mighty, and packed with features!</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product">
-              <img src="product2.jpg" alt="Zenfone 10 Accessories" />
-              <!-- Ganti dengan URL gambar produk Anda -->
-              <h4 class="mt-3">Accessories</h4>
-              <p class="text-muted">
-                Enhance your Zenfone 10 experience with our accessories.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product">
-              <img src="product3.jpg" alt="Zenfone 10 Case" />
-              <!-- Ganti dengan URL gambar produk Anda -->
-              <h4 class="mt-3">Zenfone 10 Case</h4>
-              <p class="text-muted">
-                Stylish and protective cases for your Zenfone 10.
-              </p>
-            </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Video Section -->
+          <video autoplay muted controls>
+            <source src="video/ROG.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-6">
+          <!-- Photo Section -->
+          <img src="img/laptop/m1.jpg" alt="Your Photo" class="img-fluid" />
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Video Banner Section -->
-    <section id="video" class="video-banner">
-      <div class="container">
-        <h2 class="mb-5">Experience the Zenfone 10</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe
-            class="embed-responsive-item"
-            src="https://www.youtube.com/embed/your-video-id"
-            allowfullscreen
-          ></iframe>
-          <!-- Ganti "your-video-id" dengan ID video YouTube Anda -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
