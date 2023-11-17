@@ -1,110 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <style>
-      body {
-        padding-top: 56px; /* Adjust for the fixed navbar */
-      }
 
-      .footer {
-        background-color: #f8f9fa;
-        padding: 20px 0;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">Brand Logo</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monitor Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+</head>
+
+<body class="whitebg">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid navbarcont">
+      <a class="navbar-brand" href="#">
+        <img src="img/asus-logo-white.png" alt="asus_logo" width="71.4" height="17.6">
+      </a>
+      <div class="collapse navbar-collapse d-flex  justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2 flex-lg-shrink-1">
+            <a class="nav-link" href="index.html">Shop</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li class="nav-item mx-2 XD1">
+            <a class="nav-link XXD1" href="#">Mobile/Handhelds</a>
+            <div class="full-width-dropdown">
+              <div class="col-wrapper">
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Types</a>
+                  <a class="dropdown-item hover1" href="#">Phone</a>
+                  <a class="dropdown-item hover1" href="#">Gaming Handhelds</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Featured</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG Ally</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Zenfone</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Gaming Phone</a>
+                </div>
+                <div class="col cola">
+                  <a class="dropdown-item smaller-text" href="#">Series</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG Phone</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG Handhelds</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Zenfone</a>
+                </div>
+              </div>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li class="nav-item mx-2 XD2">
+            <a class="nav-link XXD2" href="#">Laptops</a>
+            <div class="full-width-dropdown">
+              <div class="col-wrapper">
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Series</a>
+                  <a class="dropdown-item hover1" href="#">ExpertBook</a>
+                  <a class="dropdown-item hover1" href="#">ZenBook</a>
+                  <a class="dropdown-item hover1" href="#">VivoBook</a>
+                  <a class="dropdown-item hover1" href="#">ChromeBook</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Categories</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Premium</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Thin & light</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Performance</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">All-day battery</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">2-in-1 laptops</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Standard</a>
+                </div>
+                <div class="col cola">
+                  <a class="dropdown-item smaller-text" href="#">Function</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">For Home</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">For Work</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">For Creators</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">For Students</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">For Gaming</a>
+                </div>
+              </div>
+            </div>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Services
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Service 1</a>
-              <a class="dropdown-item" href="#">Service 2</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">More Services</a>
+          <li class="nav-item mx-2 XD3">
+            <a class="nav-link XXD3" href="#">Display/Desktops</a>
+            <div class="full-width-dropdown">
+              <div class="col-wrapper">
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Types</a>
+                  <a class="dropdown-item hover1" href="#">Monitors</a>
+                  <a class="dropdown-item hover1" href="#">Projectors</a>
+                  <a class="dropdown-item hover1" href="#">All-in-One PCs</a>
+                  <a class="dropdown-item hover1" href="#">Tower PCs</a>
+                  <a class="dropdown-item hover1" href="#">Gaming Tower PCs</a>
+                  <a class="dropdown-item hover1" href="#">NUCs</a>
+                  <a class="dropdown-item hover1" href="#">Mini PCs</a>
+                  <a class="dropdown-item hover1" href="#">Workstations</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Screen Sizes</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">17.9" and below</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">18" - 22.9"</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">23" - 26.9"</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">27" - 30.9"</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">31" - 34.9"</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">35" and above</a>
+                </div>
+                <div class="col cola">
+                  <a class="dropdown-item smaller-text" href="#">Series</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Gaming</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">TUF Gaming</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ProArt</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ZenScreen</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item mx-2 XD4">
+            <a class="nav-link XXD4" href="#">Motherboards/Components</a>
+            <div class="full-width-dropdown">
+              <div class="col-wrapper">
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Types</a>
+                  <a class="dropdown-item hover1" href="#">Motherboards</a>
+                  <a class="dropdown-item hover1" href="#">Graphics Cards</a>
+                  <a class="dropdown-item hover1" href="#">Gaming Case</a>
+                  <a class="dropdown-item hover1" href="#">Cooling</a>
+                  <a class="dropdown-item hover1" href="#">Power Supply Units</a>
+                  <a class="dropdown-item hover1" href="#">Optical Drives</a>
+                  <a class="dropdown-item hover1" href="#">Storage Drives</a>
+                  <a class="dropdown-item hover1" href="#">Data Storage</a>
+                  <a class="dropdown-item hover1" href="#">External Graphics Docks</a>
+                  <a class="dropdown-item hover1" href="#">Singple Board Computers</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Chipset Brands</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Nvidia</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">AMD</a>
+                  <a class="dropdown-item smaller-text lowest" href="#">Wattage</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">550W</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">650W</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">850W</a>
+                  <a class="dropdown-item smaller-text lowest" href="#">Featured</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">XG STATION PRO</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG XG STATION 2</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG</a>
+                </div>
+                <div class="col cola">
+                  <a class="dropdown-item smaller-text" href="#">Series</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Gaming</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">TUF Gaming</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ProArt</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ZenScreen</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item mx-2 XD5">
+            <a class="nav-link XXD5" href="#">Networking/Iot/Servers</a>
+            <div class="full-width-dropdown">
+              <div class="col-wrapper">
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Types</a>
+                  <a class="dropdown-item hover1" href="#">WIFI 6</a>
+                  <a class="dropdown-item hover1" href="#">Wifi Routers</a>
+                  <a class="dropdown-item hover1" href="#">Home Mesh Wifi System</a>
+                  <a class="dropdown-item hover1" href="#">Range Extenders</a>
+                  <a class="dropdown-item hover1" href="#">Modem Routers</a>
+                  <a class="dropdown-item hover1" href="#">Network Switches</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Categories</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Wifi Routers</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Home Mesh Wifi System</a>
+                  <a class="dropdown-item smaller-text lowest" href="#">Wattage</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">550W</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">650W</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">850W</a>
+                  <a class="dropdown-item smaller-text lowest" href="#">Featured</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Zenbos</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Zenbos Junior</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Zenbos Junior II</a>
+                </div>
+                <div class="col cola">
+                  <a class="dropdown-item smaller-text" href="#">Solutions</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Asus Router App</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Network Security</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Best Gaming Router</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Asus ZenWiFi Series</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Extendable Router</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item mx-2 XD6">
+            <a class="nav-link XXD6" href="#">Accessories</a>
+            <div class="full-width-dropdown">
+              <div class="col-wrapper">
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Types</a>
+                  <a class="dropdown-item hover1" href="#">Keyboards</a>
+                  <a class="dropdown-item hover1" href="#">Mice & Mousepads</a>
+                  <a class="dropdown-item hover1" href="#">Headsets and Audio</a>
+                  <a class="dropdown-item hover1" href="#">Streaming Kit</a>
+                  <a class="dropdown-item hover1" href="#">Adapters & Chargers</a>
+                  <a class="dropdown-item hover1" href="#">Stylus</a>
+                  <a class="dropdown-item hover1" href="#">Controller</a>
+                  <a class="dropdown-item hover1" href="#">Display Accessories</a>
+                </div>
+                <div class="col">
+                  <a class="dropdown-item smaller-text" href="#">Categories</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Wired Devices</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Wireless Devices</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Gamevice</a>
+                </div>
+                <div class="col cola">
+                  <a class="dropdown-item smaller-text" href="#">Series</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">ROG</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">TUF Gaming</a>
+                  <a class="dropdown-item smaller-text2 hover1" href="#">Best Gaming Router</a>
+                </div>
+              </div>
             </div>
           </li>
         </ul>
       </div>
-    </nav>
-
-    <div class="container mt-5">
-      <h1>Welcome to Our Landing Page</h1>
-      <p>This is a simple landing page example with Bootstrap.</p>
-
-      <table class="table mt-4">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>John Doe</td>
-            <td>john@example.com</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Jane Smith</td>
-            <td>jane@example.com</td>
-          </tr>
-          <!-- Add more rows as needed -->
-        </tbody>
-      </table>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-icon0 nav-item mx-2">
+            <a class="nav-link" href="#">
+              <img class="icon-opacity" src="img/navbar/magnifying-glass.svg" alt="">
+            </a>
+          </li>
+          <li class="nav-icon nav-item mx-2">
+            <a class="nav-link" href="#">
+              <img class="icon-opacity" src="img/navbar/shopping-cart.svg" alt="">
+            </a>
+          </li>
+          <li class="nav-icon3 nav-item mx-2">
+            <a class="nav-link" href="#">
+              <img class="icon-opacity" src="img/navbar/user-single.svg" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <div class="footer">
-      <p>&copy; 2023 Your Company Name</p>
+
+  <div class="maincont">
+    <img src="img/laptop/b10.jpg" alt="asus banner" class="phone-banner w-100">
+    <div class="mainisi">
+      <p class="asus-desc">Experience excellence with ASUS monitors—where sleek design meets high-performance visuals. Elevate your viewing with stunning clarity, vibrant colors, and sharp details. Whether you're a gamer, professional, or casual user, ASUS monitors offer seamless connectivity, innovative features, and eye care technology for a versatile and comfortable experience. Upgrade your workspace with trusted quality and smart design—ASUS monitors redefine visual excellence in every pixel.</p>
     </div>
+    <div class="mainisi">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="custom-column">
+              <img src="img/laptop/m1.jpg" alt="luxx awards" class="award-img">
+              <p class="award-desc">"These are the manufactureres of the year 2022! Such amazing and high quality
+                products."</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="custom-column">
+              <img src="img/laptop/m2.jpg" alt="numeriques awards" class="award-img">
+              <P class="award-desc">"Asus has no room for error with the launch of each new smartphones, each smartphone
+                is crafter with expertise."</P>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="custom-column">
+              <img src="img/laptop/m" alt="PCGH awards" class="award-img">
+              <p class="award-desc">"No. 1 Gaming for their Graphics Cards, Motherboards, Monitors, and laptops."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainisi2">
+      <div class="isisection">
+        <div class="summary-bg-cont" onclick="window.location.href='#compact';" style="cursor: pointer;">
+          <p class="summary-text">A compact design.</p>
+          <img src="img/summary-bg/a1.jpeg" alt="cloud1" class="summary-bg">
+        </div>
+        <div class="summary-bg-cont" onclick="window.location.href='#easy-access';" style="cursor: pointer;">
+          <p class="summary-text">Easy access convenience.</p>
+          <img src="img/summary-bg/a2.jpeg" alt="cloud2" class="summary-bg">
+        </div>
+        <div class="summary-bg-cont" onclick="window.location.href='#refreshing';" style="cursor: pointer;">
+          <p class="summary-text">A refreshing style.</p>
+          <img src="img/summary-bg/a3.jpeg" alt="cloud3" class="summary-bg">
+        </div>
+        <div class="summary-bg-cont" onclick="window.location.href='#camera';" style="cursor: pointer;">
+          <p class="summary-text">Smart and stable cameras.</p>
+          <img src="img/summary-bg/a4.jpeg" alt="cloud5" class="summary-bg">
+        </div>
+        <div class="summary-bg-cont" onclick="window.location.href='#';" style="cursor: pointer;">
+        <div class="summary-bg-cont" onclick="window.location.href='#performance';" style="cursor: pointer;">
+          <p class="summary-text">An amazing all around performance.</p>
+          <img src="img/summary-bg/a5.jpeg" alt="cloud6" class="summary-bg">
+        </div>
+      </div>
+    </div>
+    <div class="mainisi">
+      <div id="carouselExample2" class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="gambar-carousel2" src="img/phone/1.png" alt="Slide 1">
+        </div>
+        <div class="item">
+          <img class="gambar-carousel2" src="img/phone/2.png" alt="Slide 2">
+        </div>
+        <div class="item">
+          <img class="gambar-carousel2" src="img/phone/3.png" alt="Slide 3">
+        </div>
+        <div class="item">
+          <img class="gambar-carousel2" src="img/phone/4.png" alt="Slide 4">
+        </div>
+        <div class="item">
+          <img class="gambar-carousel2" src="img/phone/5.png" alt="Slide 5">
+        </div>
+        <div class="item">
+          <img class="gambar-carousel2" src="img/phone/6.png" alt="Slide 6">
+        </div>
+      </div>
+    </div>
+    <div class="mainisi">
+      <div class="price-section">
+        <img src="img/phone/zenfone.jpg.png" alt="zenfone" class="zenfone">
+        <p class="section-title">Uncompromised Style,<br>Affordable Brilliance.</p>
+        <p class="section-title2">Starting at <span>Rp 8.999.000</span></p>
+      </div>
+      <div class="container">
+        <p class="available">Available at these online stores</p>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="custom-column2">
+              <a href="https://www.asus.com/id/deals/rog-phone-promotion/">
+                <img src="img/stores/asus.png" alt="asus online store" class="store-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="custom-column2">
+              <a href="https://www.tokopedia.com/asus-mobile?source=universe&st=product">
+                <img src="img/stores/eraspace.png" alt="eraspace" class="store-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="custom-column2">
+              <a href="https://eraspace.com/search?q=zenfone">
+                <img src="img/stores/tokopedia.png" alt="tokopedia" class="store-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://youtu.be/T8dOTJJ-EGQ?si=qf1eq4nVMCQI0d9V">
+      <video autoplay loop muted class="phone-video">
+        <source src="video/phone.mp4" type="video/mp4">
+        <!-- Add additional source elements for different video formats if needed -->
+        Your browser does not support the video tag.
+      </video>
+    </a>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </body>
+    <div class="mainisi">
+      <div class="compact" id="compact">
+        <p class="section-title-grey">Compact size</p>
+        <p class="section-title2-grey">The ultralight Zenfone 10 is the perfect fit for your lifestyle — and your hand!
+        </p>
+        <div class="row compact-specs">
+          <div class="col-md-4 mb-4 compact-section">
+            <p class="compact-spec">5.9"</p>
+            <p class="compact-name">compact screen</p>
+          </div>
+          <div class="col-md-4 mb-4 compact-section">
+            <p class="compact-spec">172g</p>
+            <p class="compact-name">light weight</p>
+          </div>
+        </div>
+        <img src="img/phone/compact.jpg" alt="compact phone info" class="compact-photo">
+      </div>
+    </div>
+    <div class="mainisi easy-access" id="easy-access">
+      <img src="img/phone/easy-access.png" alt="">
+    </div>
+    <div class="mainisi align-center" id="refreshing">
+      <div class="row refreshing">
+        <div class="col refreshing-phone">
+          <img src="img/phone/phone-design.jpg" alt="phone design" class="refreshing-phone-design">
+        </div>
+        <div class="col refreshing-specs">
+          <p>All new design</p>
+          <p class="refreshing-title">Max style, kachow!</p>
+          <p class="refreshing-title2">Inspired by the harmonizing colors of the cosmos, Zenfone 10 comes in five
+            refreshing shades: the new Aurora Green, Eclipse Red and Comet White, along with the ever-popular Starry
+            Blue and Midnight Black. Rev up your style with the new generation Zenfone!</p>
+        </div>
+      </div>
+    </div>
+    <div class="mainisi camera" id="camera">
+      <div class="camera">
+        <p class="section-title">Fenomenal Cameras</p>
+        <div class="row compact-specs camera-index">
+          <div class="row compact-specs decrease-camera-margin camera-index">
+            <div class="col-md-4 mb-4 compact-section camera-width">
+              <p class="compact-spec">50 MP</p>
+              <p class="compact-name">Main Camera</p>
+            </div>
+            <div class="col-md-4 mb-4 compact-section camera-width">
+              <p class="compact-spec">32 MP</p>
+              <p class="compact-name">Front Camera</p>
+            </div>
+            <div class="col-md-4 mb-4 compact-section camera-width">
+              <p class="compact-spec">120°</p>
+              <p class="compact-name">Wide Camera</p>
+            </div>
+          </div>
+        </div>
+        <img src="img/phone/phone-camera-clean.jpg.png" alt="phone camera" class="camera-image">
+      </div>
+    </div>
+    <div class="mainisi phone-performance" id="performance">
+      <div class="camera">
+        <p class="section-title grey-text">Small phone, <bold class="section-title">big</bold> performance</p>
+        <div class="row compact-specs2 camera-index">
+          <div class="row compact-specs decrease-camera-margin camera-index">
+            <div class="col-md-4 mb-4 compact-section camera-width2">
+              <p class="compact-spec smaller-spec">Snapdragon® 8 Gen 2</p>
+              <p class="compact-name">latest Qualcomm® Mobile Platform</p>
+            </div>
+            <div class="col-md-4 mb-4 compact-section camera-width3">
+              <p class="compact-spec smaller-spec">16 GB</p>
+              <p class="compact-name">LPDDR5X RAM</p>
+            </div>
+            <div class="col-md-4 mb-4 compact-section camera-width3">
+              <p class="compact-spec smaller-spec">512GB</p>
+              <p class="compact-name">UFS 4.0 ROM</p>
+            </div>
+          </div>
+        </div>
+        <video autoplay loop muted class="phone-video2">
+          <source src="video/phone-performance.mp4" type="video/mp4">
+          <!-- Add additional source elements for different video formats if needed -->
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <div class="mainisi test2">
+      <p class="section-title-grey">Video Reviews</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="custom-column">
+              <iframe class="youtube-video" width="340" height="315" src="https://www.youtube.com/embed/FKnEdKO02Y4?si=88f2gxE5qxEBqXtF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p class="award-desc2">GadgetIn</p>
+              <p class="award-desc">Apple nyerah, Asus malah MENGGILA ❤️‍🔥 - Review Zenfone 10 Indonesia!</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="custom-column">
+              <iframe class="youtube-video" width="340" height="315" src="https://www.youtube.com/embed/wL1HasoUCmA?si=-TWmw5OwT6kX9fbu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="award-desc2">Sobat HAPE</p>
+                <p class="award-desc">ASUS UDAH GILA YA?! || Asus Zenfone 10 Review Indonesia</p>  
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="custom-column">
+              <iframe class="youtube-video" width="340" height="315" src="https://www.youtube.com/embed/6aK407STsGA?si=RPw5ENHNi5znVh4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p class="award-desc2">Marques Brownlee</p>
+              <p class="award-desc">This Phone is Nearly Perfect!</p>  
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mainisi disclaimer-cont">
+    <p class="disclaimer">
+      • Products certified by the Federal Communications Commission and Industry Canada will be distributed in the United States and Canada. Please visit the ASUS USA and ASUS Canada websites for information about locally available products. <br>
+      • All specifications are subject to change without notice. Please check with your supplier for exact offers. Products may not be available in all markets. <br>
+      • Specifications and features vary by model, and all images are illustrative. Please refer to specification pages for full details. <br>
+      • PCB color and bundled software versions are subject to change without notice. <br>
+      • Brand and product names mentioned are trademarks of their respective companies. <br>
+      • The terms HDMI, HDMI High-Definition Multimedia Interface, HDMI Trade dress and the HDMI Logos are trademarks or registered trademarks of HDMI Licensing Administrator, Inc.  
+    </p>
+  </div>
+
+  <div class="search-section">
+    <h2>Specified Search</h2>
+    <p>Find exactly what you're looking for now:</p>
+    <input type="text" class="form-control search-input" placeholder="Search">
+    <button type="submit" class="btn btn-primary search-button">Search</button>
+  </div>
+
+  <footer class="main-footer mt-xxl-5">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="img/asus-logo-white.png" alt="Logo">
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 AsusTech. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- OVERLAY -->
+  <div id="overlay"></div>
+
+  <!-- scripts owo -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
 </html>
