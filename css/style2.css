@@ -1005,6 +1005,15 @@ body {
 .nvidia-icon{
   width: 90px;
 }
+.black-bg{
+  background-color: black !important;
+}
+.greyish{
+  background-color: #161616;
+}
+.aaaa{
+  margin-top: -0px !important;
+}
 
 
 /* INI untuk LAPTOP */
