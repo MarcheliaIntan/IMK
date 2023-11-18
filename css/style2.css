@@ -218,6 +218,10 @@ body {
   display: none;
   z-index: 2;
 }
+.monitor-top{
+  margin-top: 50px !important;
+  margin-bottom: 50px;
+}
 
 /* footer */
 .main-footer {
